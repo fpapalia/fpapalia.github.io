@@ -1,6 +1,6 @@
 <?php
   if (isset($_POST['submit'])) {
-    $to = "fpapalia@doctors.org.uk";
+    $to = "drpapalia@d-s-s.co.uk";
     $subject = "Dr Papalia Contact Form Submission";
     $message = $_POST['message'];
     $headers = "From: " . $_POST['email'];
